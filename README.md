@@ -29,13 +29,13 @@ Le compteur de carburant doit connaître le besoin total en carburant. Pour le t
 
 **Q1 : Quelle est la somme des besoins en carburant pour tous les modules de notre fusée ?**
 
-📎 Voici les différents modules contituant notre fusée (c.a.d leur masse) : [MODULES](https://github.com/7antra/Rocket.studio-ITW/blob/master/A_liste-module.txt)
+📎 Voici les différents modules constituant notre fusée (c.a.d leur masse) : [MODULES](https://github.com/7antra/Rocket.studio-ITW/blob/master/A_liste-module.txt)
 
 ---
 
 ### Question 2 : Masse carburant ⛽ 
 
-Evidemment, vous avez oublié que le carburant possède lui aussi sa propre masse. 
+Evidemment, vous avez oublié que le carburant possède lui aussi sa propre masse.
 Le carburant lui-même nécessite du carburant tout comme un module - *prenez sa masse, divisez-la par trois, arrondissez à l'unité inférieure et soustrayez 2.* Cependant, ce carburant a aussi besoin de carburant, et ce carburant a besoin de carburant, et ainsi de suite. 
 
 Donc, pour chaque masse de module, il faut calculer son carburant et l'ajouter au total. Ensuite, traitez la quantité de carburant que vous venez de calculer comme la masse d'entrée et répétez le processus, en continuant jusqu'à ce que le besoin en carburant soit nul ou négatif. Par exemple :
